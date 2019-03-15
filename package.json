@@ -1,0 +1,22 @@
+{
+  "name": "web3-pro",
+  "description": "web3.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "web3.js" : "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wry1314/web3.git"
+  },
+  "author": "wangruyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wry1314/web3/issues"
+  },
+  "homepage": "https://github.com/wry1314/web3#readme"
+}

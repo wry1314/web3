@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', 'web3' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData web3
+8 silly fetchNamedPackageData web3
+9 silly mapToRegistry name web3
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'web3',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'web3',
+12 silly mapToRegistry   name: 'web3',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/web3
+14 verbose request uri https://registry.npm.taobao.org/web3
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 18:10:39
+17 verbose request id afca9cff68658d98
+18 verbose etag W/"ce255506fe7898cc096c07696c4e5ef9"
+19 http request GET https://registry.npm.taobao.org/web3
+20 http 304 https://registry.npm.taobao.org/web3
+21 verbose headers { date: 'Fri, 15 Mar 2019 10:10:39 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-current-requests': '1',
+21 verbose headers   vary: 'Origin',
+21 verbose headers   etag: 'W/"ce255506fe7898cc096c07696c4e5ef9"',
+21 verbose headers   'x-readtime': '22',
+21 verbose headers   via: 'npmtaobao5' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Fri, 15 Mar 2019 10:10:39 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-current-requests': '1',
+22 silly get     vary: 'Origin',
+22 silly get     etag: 'W/"ce255506fe7898cc096c07696c4e5ef9"',
+22 silly get     'x-readtime': '22',
+22 silly get     via: 'npmtaobao5' } ]
+23 verbose etag https://registry.npm.taobao.org/web3 from cache
+24 verbose get saving web3 to /Users/wangruyue/.npm/registry.npm.taobao.org/web3/.cache.json
+25 verbose correctMkdir /Users/wangruyue/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Starting
+41 silly runTopLevelLifecycles Finishing
+42 silly install printInstalled
+43 verbose stack Error: Refusing to install web3 as a dependency of itself
+43 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+43 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+43 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+43 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+43 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:16:5
+43 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+43 verbose stack     at Array.forEach (native)
+43 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+43 verbose stack     at Array.forEach (native)
+43 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+44 verbose cwd /Users/wangruyue/Documents/wry/web3
+45 error Darwin 17.4.0
+46 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "web3"
+47 error node v6.5.0
+48 error npm  v3.10.3
+49 error code ENOSELF
+50 error Refusing to install web3 as a dependency of itself
+51 error If you need help, you may report this error at:
+51 error     <https://github.com/npm/npm/issues>
+52 verbose exit [ 1, true ]
